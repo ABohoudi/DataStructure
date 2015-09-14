@@ -97,7 +97,7 @@ public class Main {
 	public static void main (String[] args) {
 		parseArguments(args);
 		int[] toSort = getArray();
-		int[] sorted = HeapSorter.start(toSort, binaryHeap);
+		int[] sorted = HeapSorterabi420.start(toSort, binaryHeap);
 		printToFile(sorted);
 	}
 }
